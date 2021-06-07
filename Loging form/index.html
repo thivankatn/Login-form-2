@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Login Form</title>
+        <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <script src="form.js"></script>
+    </head>
+<body>
+    
+
+
+        <div id="formcont" class="login-box">
+            
+            <div id="header"></div>
+            <p>E-mail</p>
+            <input type="text" placeholder="email" id="email"/>
+            <p>Password</p>
+            <input type="password" placeholder="password" id="password"/>
+            
+            <button onclick="signUp()" id="signUp"> sign up </button>
+            <button onclick="signIn()" id="signIn"> sign In </button>
+            <button onclick="signOut()" id="signOut">sign Out</button>
+            
+        </div>
+</body>
